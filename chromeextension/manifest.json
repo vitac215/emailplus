@@ -1,0 +1,51 @@
+{
+	"manifest_version": 2,
+	"name": "Email++",
+	"version": "1.02",
+	"description": "Interact with and update your delivered emails",
+	"icons": {
+		"16": "images/logo16.png",
+		"48": "images/logo48.png",
+		"128": "images/logo128.png"
+	},
+	"permissions": [
+		"storage",
+		"contextMenus",
+		"tabs",
+		"http://*/*",
+		"https://*/*",
+		"https://boosend.com/*"
+	],
+	"background": {
+		"scripts": ["js/background.js",
+								"vendor/jquery.min.js",
+								"vendor/js.cookie.js",
+								"js/content.js"],
+		"persistent": true
+	},
+	"web_accessible_resources": [
+		"vendor/*",
+		"js/event.js",
+		"css/event.min.css",
+		"images/*"
+	],
+	"content_scripts": [{
+		"matches": ["https://*.google.com/*"],
+		"js": ["js/content.js"]
+	}],
+	"externally_connectable": {
+	  "matches":["https://*.google.com/*"]
+	},
+	"browser_action": {
+		"default_icon": "images/logo48.png",
+		"default_popup": "popup.html"
+	},
+	"commands": {
+		"capture-screen": {
+			"suggested_key": {
+				"default": "Alt+C"
+			},
+			"description": "Capture Screen"
+		}
+	}
+}

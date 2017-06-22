@@ -1,0 +1,81 @@
+// $snap-color: #fd498e;
+// $captured-color: #FD9349;
+// $cedit-color: #62CB52;
+$toolbar-color: #404040;
+
+// .Snap_btn, .Snap_btn:active, .Snap_btn:focus {
+// 	background-color: $snap-color !important;
+// 	background-image: -webkit-linear-gradient(top, $snap-color, darken($snap-color, 5%)) !important;
+// 	border: 1px solid darken($snap-color, 15%) !important;
+// }
+//
+// .Snap_btn:hover {
+// 	background-image: -webkit-linear-gradient(top, darken($snap-color, 1%), darken($snap-color, 8%));
+// 	border: 1px solid darken($snap-color, 25%);
+// 	border-bottom-color: 1px solid darken($snap-color, 25%);
+// }
+//
+// .Captured_btn, .Captured_btn:active, .Captured_btn:focus {
+// 	background-color: $captured-color !important;
+// 	background-image: -webkit-linear-gradient(top, $captured-color, darken($captured-color, 5%)) !important;
+// 	border: 1px solid darken($captured-color, 15%) !important;
+// }
+//
+// .Captured_btn:hover {
+// 	background-image: -webkit-linear-gradient(top, darken($captured-color, 1%), darken($captured-color, 8%));
+// 	border: 1px solid darken($captured-color, 25%);
+// 	border-bottom-color: 1px solid darken($captured-color, 25%);
+// }
+//
+// .CEdit_btn, .CEdit_btn:active, .CEdit_btn:focus {
+// 	background-color: $cedit-color !important;
+// 	background-image: -webkit-linear-gradient(top, $cedit-color, darken($cedit-color, 5%)) !important;
+// 	border: 1px solid darken($cedit-color, 15%) !important;
+// }
+//
+// .CEdit_btn:hover {
+// 	background-image: -webkit-linear-gradient(top, darken($cedit-color, 1%), darken($cedit-color, 8%));
+// 	border: 1px solid darken($cedit-color, 25%);
+// 	border-bottom-color: 1px solid darken($cedit-color, 25%);
+// }
+
+.cedit_img {
+	cursor: pointer;
+}
+
+.btn-toolbar {
+	display: inline-block;
+	vertical-align: middle;
+	width: 10px;
+	height: 10px;
+	margin: 0px 2px 0px 7px;
+	padding: 8px;
+	background-image: url(../images/btn.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.btn-toolbar:hover {
+	outline: 1px solid #dcdcdc;
+	border-radius: 2px;
+}
+
+.tool-container {
+  background-color: $toolbar-color;
+  background-size: 100% 100%;
+  position: absolute;
+}
+
+.tool-container.tool-top .arrow {
+  border-color: $toolbar-color transparent transparent;
+}
+
+.tool-item.selected,
+.tool-item:hover {
+  background: #828080;
+}
+
+.tool-item {
+	color: #fff;
+	text-decoration: none;
+}
