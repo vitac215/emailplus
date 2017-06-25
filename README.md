@@ -4,6 +4,12 @@
 
 Email++ is a chrome extension for gmail that allows email senders to continue to modify the emails they have sent.
 
+## Install
+* Download and extract the repo.
+* Enable Developer mode by ticking the checkbox in the upper-right corner.
+* Click on the "Load unpacked extension..." button to load the folder named "chromeextension".
+
+
 ## Main Features
 * <b>Snap</b>
 	* Delete part of the email content
