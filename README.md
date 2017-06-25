@@ -6,6 +6,7 @@ Email++ is a chrome extension for gmail that allows email senders to continue to
 
 ## Install
 * Download and extract the repo.
+* Visit chrome://extensions (via omnibox or menu -> Tools -> Extensions)
 * Enable Developer mode by ticking the checkbox in the upper-right corner.
 * Click on the "Load unpacked extension..." button to load the folder named "chromeextension".
 
