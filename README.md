@@ -14,9 +14,9 @@ Email++ is a chrome extension for gmail that allows email senders to continue to
 ## Main Features
 * <img src="http://i.imgur.com/eYbJEZv.jpg" width="24"> <b>Snap</b>
 	* Delete part of the email content
-* <img src="http://i.imgur.com/pCfJ3Ct.jpg" width="25"> <b>Continuous editing</b>
+* <img src="http://i.imgur.com/c9U87Ia.jpg" width="25"> <b>Continuous editing</b>
 	* Edit part of the email content
-* <img src="http://i.imgur.com/TucopRs.jpg" width="22"> <b>Live screenshot</b> (experimental)
+* <img src="http://i.imgur.com/pBVZ1EF.jpg" width="22"> <b>Live screenshot</b> (experimental)
 	* Screenshot (e.g. part of a website) that automatically updates based on the real website
 
 
